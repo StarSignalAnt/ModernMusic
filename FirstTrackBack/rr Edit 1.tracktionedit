@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <EDIT appVersion="Waveform 13.2.0" projectID="4f0fd9/1129d6a" creationTime="1734245417901"
-      lastSignificantChange="193c923d7f1" modifiedBy="antro">
-  <TRANSPORT endToEnd="1" position="9.455782312925169" scrubInterval="0.7399999999999993"
-             start="2.0" loopPoint2="0.0" loopPoint1="0.0"/>
+      lastSignificantChange="193c9728ab9" modifiedBy="antro">
+  <TRANSPORT endToEnd="1" position="23.81496598639456" scrubInterval="0.7399999999999993"
+             start="0.0" loopPoint2="0.0" loopPoint1="0.0"/>
   <PITCHSEQUENCE>
     <PITCH startBeat="0.0" pitch="60"/>
   </PITCHSEQUENCE>
@@ -12,7 +12,7 @@
     <TIMESIG numerator="4" denominator="4" startBeat="0.0"/>
   </TEMPOSEQUENCE>
   <VIDEO/>
-  <CLICKTRACK level="0.6000000238418579"/>
+  <CLICKTRACK level="0.6025595664978027"/>
   <MASTERVOLUME>
     <PLUGIN type="volume" volume="0.6376281380653381" id="1001" enabled="1">
       <MODIFIERASSIGNMENTS/>
@@ -28,6 +28,14 @@
     <INPUTDEVICE deviceID="wavein_d7bd293c" name="Input 2"/>
   </INPUTDEVICES>
   <TRACKCOMPS/>
+  <VIEWSTATE minimalTransportBar="1" hiddenClips="" lockedClips="" chordTrackVisible="0"
+             arrangerTrackVisible="0" enabledTrackTags="" currentSidePanel="Actions"
+             browserSelection="result/presets" viewleft="-1.234705228031144"
+             viewright="35.76529477196882" sidePanelsWidth="0.7676092386245728"/>
+  <EDITMIXGROUPS/>
+  <SCENES/>
+  <AUDIOEDITING/>
+  <AUTOMAPXML/>
   <ARRANGERTRACK name="Arranger" id="1027"/>
   <CHORDTRACK name="Chord" id="1029"/>
   <MARKERTRACK id="1002" name="Marker"/>
@@ -37,7 +45,7 @@
   <MASTERTRACK name="Master" id="1030">
     <MODIFIERS/>
   </MASTERTRACK>
-  <TRACK id="1003" colour="ffff0000">
+  <TRACK id="1003" colour="ffff0000" solo="0">
     <MODIFIERS/>
     <CLIPSLOTS/>
     <AUDIOCLIP name="Track 1 Recording 1" start="0.0" length="42.26394557823129"
@@ -50,7 +58,15 @@
     <PLUGIN type="volume" id="1004" enabled="1">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1005" enabled="1"/>
+    <PLUGIN type="stereoDelay" windowLocked="1" id="1053" enabled="1" sync="1.0"
+            presetDirty="0" feedbackL="40.0" feedbackR="40.0" crossR="67.0"
+            crossL="4.0" highcut="20000.0" presetName="Delay: 1_8 Note" presetPath="C:\Users\antro\AppData\Roaming\Tracktion\Waveform\Factory Presets\Delay\Delay 1_8 Note.trkpreset"
+            delaySyncOnL="24.0" delaySyncOnR="24.0" lowcut="300.0">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
+    <PLUGIN type="level" id="1005" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
     <OUTPUTDEVICES>
       <DEVICE name="(default audio output)"/>
     </OUTPUTDEVICES>
@@ -82,89 +98,98 @@
       </FACEPLATE>
     </PLUGIN>
     <PLUGIN type="stereoDelay" windowLocked="1" id="1033" enabled="1" sync="1.0"
-            presetDirty="1" feedbackR="68.0" feedbackL="25.5">
+            presetDirty="0" feedbackR="40.0" feedbackL="40.0" windowX="396"
+            windowY="290" highcut="20000.0" crossL="4.0" crossR="67.0" presetName="Delay: 1_8 Note"
+            presetPath="C:\Users\antro\AppData\Roaming\Tracktion\Waveform\Factory Presets\Delay\Delay 1_8 Note.trkpreset"
+            delaySyncOnL="24.0" delaySyncOnR="24.0" lowcut="300.0">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
     <PLUGIN type="volume" id="1007" enabled="1" volume="1.0">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1008" enabled="1"/>
+    <PLUGIN type="level" id="1008" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
     <OUTPUTDEVICES>
       <DEVICE name="(default audio output)"/>
     </OUTPUTDEVICES>
   </TRACK>
   <TRACK id="1009" colour="ffaaff00">
     <MODIFIERS/>
-    <OUTPUTDEVICES>
-      <DEVICE name="(default audio output)"/>
-    </OUTPUTDEVICES>
     <CLIPSLOTS/>
     <PLUGIN type="volume" id="1010" enabled="1">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1011" enabled="1"/>
-  </TRACK>
-  <TRACK id="1012" colour="ff00ff00">
-    <MODIFIERS/>
+    <PLUGIN type="level" id="1011" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
     <OUTPUTDEVICES>
       <DEVICE name="(default audio output)"/>
     </OUTPUTDEVICES>
+  </TRACK>
+  <TRACK id="1012" colour="ff00ff00">
+    <MODIFIERS/>
     <CLIPSLOTS/>
     <PLUGIN type="volume" id="1013" enabled="1">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1014" enabled="1"/>
-  </TRACK>
-  <TRACK id="1015" colour="ff00ffaa">
-    <MODIFIERS/>
+    <PLUGIN type="level" id="1014" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
     <OUTPUTDEVICES>
       <DEVICE name="(default audio output)"/>
     </OUTPUTDEVICES>
+  </TRACK>
+  <TRACK id="1015" colour="ff00ffaa">
+    <MODIFIERS/>
     <CLIPSLOTS/>
     <PLUGIN type="volume" id="1016" enabled="1">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1017" enabled="1"/>
-  </TRACK>
-  <TRACK id="1018" colour="ff00aaff">
-    <MODIFIERS/>
+    <PLUGIN type="level" id="1017" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
     <OUTPUTDEVICES>
       <DEVICE name="(default audio output)"/>
     </OUTPUTDEVICES>
+  </TRACK>
+  <TRACK id="1018" colour="ff00aaff">
+    <MODIFIERS/>
     <CLIPSLOTS/>
     <PLUGIN type="volume" id="1019" enabled="1">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1020" enabled="1"/>
-  </TRACK>
-  <TRACK id="1021" colour="ff0000ff">
-    <MODIFIERS/>
+    <PLUGIN type="level" id="1020" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
     <OUTPUTDEVICES>
       <DEVICE name="(default audio output)"/>
     </OUTPUTDEVICES>
+  </TRACK>
+  <TRACK id="1021" colour="ff0000ff">
+    <MODIFIERS/>
     <CLIPSLOTS/>
     <PLUGIN type="volume" id="1022" enabled="1">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1023" enabled="1"/>
-  </TRACK>
-  <TRACK id="1024" colour="ffaa00ff">
-    <MODIFIERS/>
+    <PLUGIN type="level" id="1023" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
     <OUTPUTDEVICES>
       <DEVICE name="(default audio output)"/>
     </OUTPUTDEVICES>
+  </TRACK>
+  <TRACK id="1024" colour="ffaa00ff">
+    <MODIFIERS/>
     <CLIPSLOTS/>
     <PLUGIN type="volume" id="1025" enabled="1">
       <MODIFIERASSIGNMENTS/>
     </PLUGIN>
-    <PLUGIN type="level" id="1026" enabled="1"/>
+    <PLUGIN type="level" id="1026" enabled="1">
+      <MODIFIERASSIGNMENTS/>
+    </PLUGIN>
+    <OUTPUTDEVICES>
+      <DEVICE name="(default audio output)"/>
+    </OUTPUTDEVICES>
   </TRACK>
-  <VIEWSTATE minimalTransportBar="1" hiddenClips="" lockedClips="" chordTrackVisible="0"
-             arrangerTrackVisible="0" enabledTrackTags="" currentSidePanel="Actions"
-             browserSelection="result/presets" viewleft="-1.478029294274299"
-             viewright="35.52197070572566" sidePanelsWidth="0.7676092386245728"/>
-  <EDITMIXGROUPS/>
-  <SCENES/>
-  <AUDIOEDITING/>
-  <AUTOMAPXML/>
 </EDIT>
